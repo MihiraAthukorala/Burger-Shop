@@ -70,6 +70,10 @@ body {
     overflow-x: hidden;
 }
 
+section {
+    padding: 3rem 9%;
+}
+
 .header {
     position: fixed;
     top: 0;
