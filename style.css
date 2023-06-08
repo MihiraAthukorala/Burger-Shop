@@ -144,6 +144,34 @@ section {
 }
 
 
+/* Home Section Configuration */
+
+.home {
+    margin-top: 7rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 70rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.home .content img {
+    width: 800px;
+    height: 650px;
+}
+
+.home .content h3 {
+    -webkit-text-size-adjust: 4rem;
+}
+
+.home .content p {
+    -webkit-text-size-adjust: 1.7rem;
+    padding: 2rem 0;
+}
+
 
 
 
@@ -157,6 +185,10 @@ section {
 
     .header {
         padding: 3rem;
+    }
+
+    section .home {
+        padding: 3rem 2rem;
     }
 
 }
