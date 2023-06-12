@@ -304,6 +304,59 @@ section {
     color: var(--white);
 }
 
+/* About Section */
+
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about .image {
+    flex: 1 1 40rem;
+}
+
+.about .image img {
+    width: 100%;
+}
+
+.about .content {
+    flex: 1 1 40rem;
+}
+
+.about .content .title {
+    font-size: 3rem;
+    font-weight: 1000;
+    color: var(--white);
+}
+
+.about .content p {
+    margin-bottom: 1rem;
+    font-size: 1.9rem;
+    line-height: 2;
+    color: var(--light-color);
+    padding: 2rem 0;
+}
+
+.about .content .icons {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .content .icons h3 {
+    flex: 1 1 25rem;
+    font-size: 1.9rem;
+    color: var(--white);
+}
+
+.about .content .icons i {
+    padding-right: 0.5rem;
+    color: var(--yellow);
+}
+
 
 
 
